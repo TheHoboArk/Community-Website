@@ -1,4 +1,4 @@
-# A update script
+#!/bin/bash
 
 echo "
 git -C /var/www/ pull;
