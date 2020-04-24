@@ -36,7 +36,7 @@ hash -r nvm
 apt install composer zip unzip php-mbstring php-dom -y;
 
 rm -rf /var/www/*;
-git clone https://github.com/GameserverApp/Community-Website.git /var/www;
+git clone https://github.com/TheHoboArk/Community-Website.git /var/www;
 
 composer install -d /var/www;
 npm --prefix /var/www install;
