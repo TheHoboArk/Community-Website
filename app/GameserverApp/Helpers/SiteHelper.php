@@ -83,7 +83,7 @@ class SiteHelper extends Helper
         $theme = self::api()->domain('theme');
 
         if($theme != 'theme-default') {
-            $theme = 'theme-hobo' . $theme;
+            $theme = 'theme-basic ' . $theme;
         }
 
         return $theme;
